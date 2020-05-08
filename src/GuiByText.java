@@ -2,7 +2,10 @@ import javax.swing.*;
 
 public class GuiByText extends JFrame {
     GuiByText(){
-        setsize( width: 640, height: 480);
+        setSize(640, 480);
+        setLocationRelativeTo(null);
+        setTitle("GUI By Text");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     public static void main(String[] args) {
